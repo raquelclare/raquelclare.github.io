@@ -1,2 +1,78 @@
-<form>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raquel Bohannan</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+			<!-- My name at the top -->
+			<h1>Raquel Bohannan</h1>
+
+			<div id="links">
+				<a href="index.html">About |</a>
+				<a href="portfolio.html">Portfolio |</a>
+				<a href="contact.html">Contact |</a>
+			</div>
+
+	</header>
+
+<!-- A form to submit to get into contact -->
+	<div class="contact">
+		<h2>Contact</h2>
+		<br/>
+		<hr/>
+		<br/>
+			<!-- <h3 id="name">Name</h3>
+			<h3 id="email">Email</h3>
+			<h3 id="message">Message</h3> -->
 	
+
+		<form>
+			<div>
+			<!-- Received 2 errors when validating this HTML code pointing me to the Email and Message box below. Error "The for attribute of the label element must refer to a non-hidden form control." -->
+		        <label for="name">Name</label>
+		        <br/>
+		        <input type="text" id="name" name="user_name" value="John Smith">
+		    </div>
+		    <br/>
+		    <div>
+		    	<label for="email">Email</label>
+		    	<br/>
+		    	<input type="email" id="mail" name="user_mail" value="example@gmail.com">
+		    </div>
+		    <br/>
+		    <div>
+		    	<label for="message">Message</label>
+		    	<br/>
+		    	<textarea id="msg" name ="user_message"></textarea>
+		    </div>
+		    <br/>
+		    <div>
+		    	<!-- <label for="button">Submit</label> -->
+		    	<input type="submit" id="button">
+		    </div>
+
+		</form>
+
+	</div>
+
+	<!-- Icons that are live links to my GitHub, LinkedIn, and Stack Overflow profiles -->
+	<nav class="sidebar">
+		<h3>Connect with Me</h3>
+		<br/>
+		<hr/>
+		<br/>
+		<!-- Use this as the buttons!! -->
+	    <a href="https://github.com/raquelclare" target="_blank"><img id="github" src="assets/images/github_square_black.png" alt="Github widget"></a>
+
+	    <a href="https://www.linkedin.com/in/raquel-bohannan-0007189b/" target="_blank"><img id="linkedin" src="assets/images/linkedin_square_color.png" alt="LinkedIn widget"></a>
+
+	    <a href="http://stackoverflow.com/users/7753336/raquel-bohannan?tab=profile" target="_blank"><img id="stackoverflow" src="assets/images/stackoverflow.png" alt="Stackoverflow widget"></a>
+	</nav>
+
+	<footer>&copy;Copyright 2017 Raquel Bohannan</footer>
+</body>
+</html>
