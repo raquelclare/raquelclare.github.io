@@ -2,7 +2,8 @@
 	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
 	/*margin: auto;*/
 }
-
+/*When viewing on different browsers I realize I did not account
+for different sized browsers. The flow gets messed up.*/
 header {
 	background-color: #ffffff;
 	border-style: solid;
@@ -20,7 +21,6 @@ body {
 	margin: 0px; 
 	/*width: 960px;*/
 	/*line-height: 10px;*/
-
 }
 
 h1, h2, h3 {
@@ -154,7 +154,8 @@ Update: changed to circle icon and hover element now works*/
 	width: 220px;
 	padding: 5px;
 }
-
+/*Banners are not displaying, only the Rock Paper Scissors
+banner is displaying. The code is all the same.*/
 #text1, #text2, #text3, #text4, #text5 {
 	position: absolute;
 	font-family: Georgia, Times, 'Times New Roman', serif;
@@ -200,7 +201,9 @@ Update: changed to circle icon and hover element now works*/
 	padding: 10px;
 	width: 150px;
 }
-
+/*I think my footer settings are not allowing me to scroll
+all the way down on my Portfolio page and therefore cutting
+off the bottom image and content box*/
 footer { 
 	clear: both;
 	position: fixed;
